@@ -171,3 +171,4 @@ C:\Users\filip\OneDrive\Desktop\BYUI Semester\BYUI 8th Semester\CIT 365\Week10\C
 C:\Users\filip\OneDrive\Desktop\BYUI Semester\BYUI 8th Semester\CIT 365\Week10\ContosoUniversity\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Details.cshtml.g.cs
 C:\Users\filip\OneDrive\Desktop\BYUI Semester\BYUI 8th Semester\CIT 365\Week10\ContosoUniversity\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Edit.cshtml.g.cs
 C:\Users\filip\OneDrive\Desktop\BYUI Semester\BYUI 8th Semester\CIT 365\Week10\ContosoUniversity\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs
+C:\Users\filip\OneDrive\Desktop\BYUI Semester\BYUI 8th Semester\CIT 365\Week10\ContosoUniversity\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Home\About.cshtml.g.cs
