@@ -1,30 +1,101 @@
 ﻿@model IEnumerable<ContosoUniversity.Models.SchoolViewModels.EnrollmentDateGroup>
 
 @{
-    ViewData["Title"] = "Student Body Statistics";
+    ViewData["Title"] = "About";
 }
+<link rel="stylesheet" href="~/css/athelics.css">
 
-<h2>Student Body Statistics</h2>
-
-<table>
-    <tr>
-        <th>
-            Enrollment Date
-        </th>
-        <th>
-            Students
-        </th>
-    </tr>
-
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentDate)
-            </td>
-            <td>
-                @item.StudentCount
-            </td>
-        </tr>
-    }
-</table>
+<div class="front-image">
+    <h1>A Place Where Ordinary People do Extraordinary Things!</h1>
+</div>
+<div class="sports-container">
+    <div id="subjects">
+        <h2>Contoso University and Its 200 Years of Tradition</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus!
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus!
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus!
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Id optio, repudiandae doloribus corporis recusandae
+            non ullam consequatur, in fugit eum eaque quaerat. A
+            tempore repellat quam cupiditate, repellendus in!
+            Repellendus!
+        </p>
+    </div>
+    <div class="picture-container">
+        <div id="logo-sport">
+            <img src="~/images/Sports/logo.png" alt="Contoso University Team">
+            <h2>Contoso University Among the Best</h2>
+        </div>
+        <div id="pic-sport1">
+            <img class="pic-sport" src="~/images/Sports/futballTeam.jpeg" alt="Contoso University Football Team">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Enim inventore illum quod distinctio, ut fuga
+                necessitatibus labore nulla est maxime adipisci facilis
+                incidunt, officia sapiente quos esse dolore ipsum alias!
+            </p>
+        </div>
+        <div id="pic-sport2">
+            <img class="pic-sport" src="~/images/Sports/fightteam.jpeg" alt="Contoso University Box Team">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Enim inventore illum quod distinctio, ut fuga
+                necessitatibus labore nulla est maxime adipisci facilis
+                incidunt, officia sapiente quos esse dolore ipsum alias!
+            </p>
+        </div>
+        <div id="pic-sport3">
+            <img class="pic-sport" src="~/images/Sports/dacin.team.jpeg" alt="Contoso University Dacing Team">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Enim inventore illum quod distinctio, ut fuga
+                necessitatibus labore nulla est maxime adipisci facilis
+                incidunt, officia sapiente quos esse dolore ipsum alias!
+            </p>
+        </div>
+        <div id="pic-sport4">
+            <img class="pic-sport" src="~/images/Sports/runingteam.jpg" alt="Contoso University Running Team">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit. Enim inventore illum quod distinctio, ut fuga
+                necessitatibus labore nulla est maxime adipisci facilis
+                incidunt, officia sapiente quos esse dolore ipsum alias!
+            </p>
+        </div>
+    </div>
+</div>

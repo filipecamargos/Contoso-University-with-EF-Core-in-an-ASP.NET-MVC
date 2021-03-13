@@ -6,8 +6,9 @@
     <title>@ViewData["Title"] - Contoso University</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/head&footer.css">
 </head>
-<body>
+<body style="width:100%;">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
@@ -41,15 +42,54 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div>
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2020 - Contoso University - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <footer style="margin-top:100px;">
+        <div class="top-footer">
+            <div class="contact-info">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>Av. Brazil 300</li>
+                    <li>ID - USA</li>
+                    <li>200.666.4896</li>
+                    <li>uniby@uniby.edu</li>
+                </ul>
+            </div>
+            <div class="quick-link">
+                <h4>Quick Link</h4>
+                <ul>
+                    <li><a href="unibyHomePage.html">About us</a></li>
+                    <li><a href="#Navegation">Navegation Bar</a></li>
+                    <li><a href="#updates">Updates</a></li>
+                </ul>
+            </div>
+            <div class="link-connect">
+                <h4>Connect</h4>
+                <ul>
+                    <li>
+                        <a href="https://www.linkedin.com/in/filipe-ferreira-2a5697138/">
+                            <img src="images/logos/Linkdin.jpg" alt="UNI_BY Linkdin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/filipe.camargos.902?ref=bookmarks">
+                            <img src="images/logos/facebook.jpg" alt="Contoso University Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/filipe.camargos.ferreira/">
+                            <img src="images/logos/Instagram.png" alt="Contoso University Instagram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy-right">
+                <h2>Contoso University &copy; 2021 Filipe Ferreira</h2>
+            </div>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
